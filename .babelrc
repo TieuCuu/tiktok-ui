@@ -1,0 +1,14 @@
+{
+    "plugins": [
+        [
+            "module-resolver",
+            {
+                "alias": {
+                    "~": "./src",
+                }
+            }
+        ]
+    ]
+}
+//file .babelrc: Example in src have a file like App.js: import App from '~/App' == ./src/App
+//file jsconfig.json: gõ dấu ~/ thì nó sẽ tự động gợi ý các file trong thư mục src/
