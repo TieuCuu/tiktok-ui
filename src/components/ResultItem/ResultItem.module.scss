@@ -1,0 +1,22 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    padding: var(--search-result-padding);
+
+    &:hover {
+        background: rgba(22, 24, 35, 0.03);
+        cursor: pointer;
+    }
+}
+
+.icon {
+    font-size: 1.5rem;
+}
+
+.result-title {
+    flex: 1;
+    margin-left: 8px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 22px;
+}
