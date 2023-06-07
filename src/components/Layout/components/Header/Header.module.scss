@@ -15,6 +15,7 @@
 .inner {
     height: 100%;
     width: var(--default-layout-width);
+    padding: 0 var(--default-layout-horizontal-spacer);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -119,4 +120,15 @@
     .action-title {
         margin-left: 8px;
     }
+}
+
+.more-button {
+    font-size: 2rem;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-left: 16px;
+    background-color: transparent;
+    padding: 0 4px;
+    cursor: pointer;
 }
